@@ -60,19 +60,19 @@
 .category-show {
   cursor: pointer; }
 
-.category-box {
-  position: absolute;
-  top: 200%;
-  left: -20%;
-  z-index: 200;
-  width: 25rem;
-  box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
-  background-color: #fff;
-  display: none;
-  color: rgba(0, 0, 0, 0.7); }
-  .category-box:hover {
-    display: block; }
-   @media only screen and (max-width: 50em) {
+ .category-box {
+    position: absolute;
+    top: 200%;
+    left: 10%;    
+    z-index: 200;
+    width: 25rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: none;
+    color: rgba(0, 0, 0, 0.7); }
+    .category-box:hover {
+      display: block; }
+    @media only screen and (max-width: 50em) {
       .category-box {
         left: 0%; } }  
     @media only screen and (max-width: 38em) {
