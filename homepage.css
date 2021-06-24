@@ -145,7 +145,7 @@
 .remove-box {
   display: none !important; }
 
-.homepage-link{
+  .homepage-link{
       order: -1;  
       text-decoration: none;
       color: #888888;
